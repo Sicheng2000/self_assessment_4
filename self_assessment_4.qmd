@@ -1,0 +1,40 @@
+---
+title: "Self-assessment #4"
+author: Sicheng Wang
+format: 
+  pdf:
+    number-sections: true
+    toc: true
+    toc-depth: 1
+---
+
+# Take-away
+
+(@) Exploratory analysis and predictive analysis test data in multiple ways comparing with inferential data analysis.
+
+(@) PCA is a linear transformation to reduce dimensionality where t-SNE is an non-linear transformation to visualize high-dimensional data.
+
+(@) Classification task is label something, while regression task is measure something.
+
+(@) In machine learning, variables are called features.
+
+(@) The proportion for training and testing is 75:25 or 80:20.
+
+(@) Training is equal to recipe (features) + specification (algorithm)
+
+(@) `strata` is used for sampling.
+
+(@) `kableExtra` create a formatted table, `kable()` create a simple table.
+
+(@) Null hypothesis assume there is no difference, while alternative hypothesis assume there is effect exists.
+
+# Challenges
+The challenges is mainly because IDA, PDA and EDA relate to statistical or mathematical concepts, which needs to be combined with model selection, algorithm selection and results interpret.
+
+# Resources
+Because the math involved, it needs me to search for a lot of information like [PCA](https://www.xiaohongshu.com/explore/651b1ade000000001e0309fc?app_platform=ios&app_version=8.29&author_share=1&share_from_user_hidden=true&type=video&xhsshare=CopyLink&shareRedId=ODc1NUk-Njo2NzUyOTgwNjY1OTk1OjY9&apptime=1712440474), it discusses how to decentralize the data. 
+Like [bootstrapping](https://blog.csdn.net/qq_46110061/article/details/127826247), resampling the data with replacement. Like [cross-validation](https://blog.csdn.net/SongGu1996/article/details/100704276), resampling without replacement. Other content like [`set.seed`](https://www.bilibili.com/read/cv25281382/), used for reproduce the results.
+
+
+# Explore
+The thing I need to learn more is some content related to mathematics which could help me understand the algorithm and independently choose model. Below is just an example about [K-means in clustering analysis](https://www.bilibili.com/video/BV16Y4y1h7EP/?spm_id_from=333.788.recommend_more_video.3&vd_source=f94fa1d4f65b4001146f043fbc7e4b2a). It mentions the number of K determines the number of cluster. Normalized the data before measure data relatedness.
